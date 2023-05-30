@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>kachipum</title>
+</head>
+<body>
+    <section id="game-zone">
+        <figure>
+            <figcaption>Player</figcaption>
+            <img id="playerChoice" src="./images/rock.png" alt="Player">
+        </figure>
+        <figure>
+            <figcaption>NPC</figcaption>
+            <img id="computerChoice" src="./images/rock.png" alt="NPC">
+        </figure>
+    </section>
+    <p id="result">
+        Tu empatas escogiendo <strong>piedra</strong> en contra de <strong>piedra</strong>
+    </p>
+    <p id="score">
+        Haz ganado <strong>0</strong> veces.
+        Haz perdido <strong>0</strong> veces.
+    </p>
+    <section>
+        <button data-choice="papel">
+            <img src="./images/paper.png" alt="Papel">
+        </button>
+        <button data-choice="piedra">
+            <img src="./images/rock.png" alt="Roca">
+        </button>
+        <button data-choice="tijeras">
+            <img src="./images/scissors.png" alt="Tijeras">
+        </button>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
